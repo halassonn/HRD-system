@@ -12,7 +12,7 @@
     "publish":[
       {
         "provider":"github",
-        "repo":"HRDsys",
+        "repo":"hrd-system-release",
         "owner":"halassonn",
         "token": "231e756930b4a89e094e99c27fc170d9ef2729fb"
 

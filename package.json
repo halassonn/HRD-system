@@ -1,7 +1,7 @@
 {
-  "name": "reyhanApp",
-  "version": "1.0.7",
-  "description": "",
+  "name": "hrd-sysaap",
+  "version": "1.0.1",
+  "description": "Hrd application System",
   "homepage": "",
   "author": {
     "name": "Halasson Gultom",
@@ -18,7 +18,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/halassonn/HRDsys.git"
+    "url": "git+https://github.com/halassonn/HRD-system.git"
   },
   "scripts": {
     "ng": "ng",
