@@ -1,0 +1,41 @@
+{
+  "productName": "reyhanApp",
+  "directories": {
+    "app": "dist",
+    "output": "app-builds"
+  },
+  "win": {
+    "icon": "dist/favicon",
+    "target": [
+      "nsis"
+    ],
+    "publish":[
+      {
+        "provider":"github",
+        "repo":"HRDsys",
+        "owner":"halassonn",
+        "token": "231e756930b4a89e094e99c27fc170d9ef2729fb"
+
+      }
+    ]
+  },
+  "mac": {
+    "icon": "dist/favicon",
+    "target": [
+      "dmg"
+    ]
+  },
+  "linux": {
+    "icon": "dist",
+    "target": [
+      "AppImage"
+    ]
+  },
+"nsis": {
+  "oneClick": false,
+  "perMachine": false,
+  "allowElevation": true,
+  "allowToChangeInstallationDirectory": true,
+  "runAfterFinish": false
+}
+}
